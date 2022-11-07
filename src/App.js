@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css'
+export default function App(){
+  const name= "Ibro";
+  const age = 24;
+  const google = 'http://www.google.com';
+
+return(
+ <div className="App">
+  <h1>name: {name}</h1>
+  <h2>age:{age}</h2>
+  Go to <a href={google}>google</a>
+
+ </div>
+
+)
 }
-
-export default App;
