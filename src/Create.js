@@ -70,7 +70,7 @@ const Create = () => {
 
                 </select>
                 {/* {author} */}
-       {!loading  &&   <button onClick={handleSubmit}>Add Blog</button>}
+       {!loading && <button onClick={handleSubmit}>Add Blog</button>}
          {loading &&<button diabled>loading ....</button>}
          
             </form>
