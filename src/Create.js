@@ -8,6 +8,7 @@ const Create = () => {
     const [author, setAuthor] = useState('Ibro')
     const [loading,setLoading] = useState(false)
     const navigate = useNavigate();
+   
     const handleSubmit = (e)=> {
         // console.log("click event works");
         e.preventDefault();
@@ -46,19 +47,21 @@ const Create = () => {
                     setTitle(e.target.value)
                 }}
                 />
-                {title}
+                {/* {title} */}
 
                 <label>Blog Content</label>
                 <textarea
                 required
                 onChange={(e)=> {
+                    
                     setContent(e.target.value);
                 }}
                 ></textarea>
-                {content}
+                {/* {content} */}
                 <label>Blog Author</label>
                 <select
                   onChange = {(e)=>{
+                    
                     setAuthor(e.target.value)
                 }}
                 >
@@ -66,10 +69,10 @@ const Create = () => {
                     <option value="Heyru">Heyru</option>
 
                 </select>
-                {author}
+                {/* {author} */}
        {!loading  &&   <button onClick={handleSubmit}>Add Blog</button>}
-         {loading &&<button diabled>loading ....</button>
-}
+         {loading &&<button diabled>loading ....</button>}
+         
             </form>
         </div>
      );

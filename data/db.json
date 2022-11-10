@@ -1,130 +1,22 @@
 {
   "blogs": [
     {
-      "title": "my first blog",
-      "content": "ldfjsojosfsdf fof sf dfsdf jdlrjel rejrejr erjwe rwe rw re rejijls ddsajfida d dfdjfldj dfsld fsd fd f fsds flsd df  fs fs",
+      "title": "test one ",
+      "content": "this is test 1",
       "author": "Ibro",
       "id": 1
     },
     {
-      "title": "my second blog",
-      "content": "ldfjsojosfsdf fof sf dfsdf jfsdjfil s sj s fsf dfisdj dfsd ddjd g dljd gdjlgd jgldfglid ggjldf gjdlfjg dljffg ",
+      "title": "test 2",
+      "content": "this is test 2",
       "author": "Heyru",
       "id": 2
     },
     {
-      "title": "kjkkj",
-      "content": "kkjhkj",
-      "author": "Heyru",
+      "title": "test 3",
+      "content": "this is test 3",
+      "author": "Ibro",
       "id": 3
-    },
-    {
-      "title": "kkkk",
-      "content": "kkkkj",
-      "author": "Ibro",
-      "id": 4
-    },
-    {
-      "title": "lkjlkjlj",
-      "content": "kljlkljl",
-      "author": "Ibro",
-      "id": 5
-    },
-    {
-      "title": "jkjhk",
-      "content": "bjjk",
-      "author": "Ibro",
-      "id": 6
-    },
-    {
-      "title": "jkjhk",
-      "content": "bjjk",
-      "author": "Ibro",
-      "id": 7
-    },
-    {
-      "title": "jkjhk",
-      "content": "bjjk",
-      "author": "Ibro",
-      "id": 8
-    },
-    {
-      "title": "khkj",
-      "content": "nkjkjj",
-      "author": "Heyru",
-      "id": 9
-    },
-    {
-      "title": "sajlds",
-      "content": "asdkls",
-      "author": "Heyru",
-      "id": 10
-    },
-    {
-      "title": "knjjk",
-      "content": "jljl",
-      "author": "Ibro",
-      "id": 11
-    },
-    {
-      "title": "mlml",
-      "content": "mlmlm",
-      "author": "Heyru",
-      "id": 12
-    },
-    {
-      "title": "kkkkkkkkkkkk",
-      "content": "kkkkkkkkkkkkkkkkkkk",
-      "author": "Ibro",
-      "id": 13
-    },
-    {
-      "title": "who cares",
-      "content": "if u asof sfsiof jsfjso if sff sf d s fsdc",
-      "author": "Ibro",
-      "id": 14
-    },
-    {
-      "title": "who cares",
-      "content": "if u asof sfsiof jsfjso if sff sf d s fsdc",
-      "author": "Ibro",
-      "id": 15
-    },
-    {
-      "title": "ddjfladfs",
-      "content": "asdjfafl",
-      "author": "Ibro",
-      "id": 16
-    },
-    {
-      "title": "ddjfladfs",
-      "content": "asdjfafl",
-      "author": "Ibro",
-      "id": 17
-    },
-    {
-      "title": "ddjfladfs",
-      "content": "asdjfafl",
-      "author": "Ibro",
-      "id": 18
-    },
-    {
-      "title": "ddjfladfs",
-      "content": "asdjfafl",
-      "author": "Ibro",
-      "id": 19
-    },
-    {
-      "title": "hiuhuih",
-      "content": "jljljl",
-      "author": "Ibro",
-      "id": 20
-    },
-    {
-      "title": "test",
-      "content": "test 123 test 212",
-      "author": "Ibro",
-      "id": 21
     }
   ]
 }
