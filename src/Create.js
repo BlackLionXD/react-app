@@ -6,6 +6,24 @@ const Create = () => {
     const [title,setTitle]= useState('');
     const [content, setContent] = useState('');
     const [author, setAuthor] = useState('Ibro')
+
+    const handleSubmit = (e)=> {
+        // console.log("click event works");
+        e.preventDefault();
+
+        const blog= {title, content, author}
+        console.log(blog)
+        fetch('http://localhost:8000/blogs',{
+                method: 'POST',
+                headers:{"Content-Type": "application/json"},
+                body: JSON.stringify(blog)
+            }).then(()=>{
+                console.log('new blog added')
+            }).catch(error =>{
+                console.log(error)
+            })
+
+    }
     return ( 
         
     <div className="create">
@@ -40,7 +58,7 @@ const Create = () => {
 
                 </select>
                 {author}
-            <button>Add Blog</button>
+            <button onClick={handleSubmit}>Add Blog</button>
             </form>
         </div>
      );
